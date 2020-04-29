@@ -1,0 +1,341 @@
+body{
+    background: #181818;
+;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.icon {
+    width: 100px;
+}
+/*    Billboard    */
+.billboard{
+    width: 100%;
+    height: 690px;
+    position: relative;
+}
+.billboard.lambo{
+    background: url('img/billboard2.jpg') fixed;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.billboard .caption{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.icon{
+    width: 100px;
+}
+
+
+
+.billboard .caption h1{
+    font-family: 'Bangers', cursive;
+    font-size: 100px;
+    font-weight: bold; 
+    margin-bottom: 30px;
+    color: #fff;
+    letter-spacing: 20px;
+}
+
+
+.billboard .caption p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+.billboard .caption hr{
+    display: inline-block;
+    height: 1px;
+    width: 30px;
+    border: 0!important;   
+    margin: 0;
+    padding: 0;
+}
+.block{
+    background: url(img/Screenshot_1.png); fixed;
+    width: 100%
+}
+
+/*    header    */
+header{
+    width: 80%;
+    height: 125px;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 57px;
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;  
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+
+header.dark nav ul li a{  
+    color: #818181;
+}
+
+header.dark nav ul li a:hover{
+    color: #818181;
+}
+
+
+/*    Services    */
+.services ul{
+    margin-top: 70px;
+}
+
+.services ul li{
+    list-style: none;
+    display: block;
+    width: 313px;
+    float: left;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.services ul li:first-child{
+    margin-left: 0;
+}
+
+.services ul li .separator{
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: #f6f6f6;
+    margin: 20px auto;
+}
+
+.services ul li h2{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.services ul li p{
+   color: #838181;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    line-height: 28px; 
+    margin-top: 40px;
+    letter-spacing: .5px;
+}
+
+
+.title{
+    text-align: center;
+    overflow: hidden;
+}
+
+.title h2{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+.title h3{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    font-weight: normal!important;
+}
+
+.title hr.separator{
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: #ebebeb;
+    margin: 0 auto;
+    padding: 0;
+    border: 0!important;
+}
+/*    testimonials    */
+.avatar{
+	width: 100px
+}
+.testimonials{
+    margin-top: 600px;
+}
+
+.testimonials ul{
+    margin-top: 70px;
+    list-style: none;
+}
+
+.testimonials ul li{
+    display: block;
+    float: left;
+    margin-left: 80px;
+    width: 313px;
+}
+
+.testimonials ul li:first-child{
+    margin-left: 0;
+}
+
+.testimonials ul li .quotes{
+    margin-right: 10px;
+}
+
+.testimonials ul li p{
+    color: #838181;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ecebeb;
+    position: relative;
+}
+
+.testimonials ul li p .triangle{
+    display: block;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 40px;
+}
+
+.testimonials ul li .client{
+    margin-left: 20px;
+}
+
+.testimonials ul li .client img.avatar{
+    float: left;
+    margin-right: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.testimonials ul li .client .client_details{
+    float: left;
+}
+
+.testimonials ul li .client .client_details h4{
+    color: #7b7979;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.testimonials ul li .client .client_details h5{
+    color: #7b7979;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+}
+/*напишите нам*/
+
+.decor {
+  margin-top: 250px;
+  text-align:center;
+}
+
+.form-inner {padding: 180px 180px 0 180px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+.form-inner input[type="submit"] {
+  margin: 30px 0 0 10px;
+  background: #707981;
+  border-bottom: 3px solid #ebebeb;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+
+/**/
+
+/*reklama*/
+
+.reklama{
+    margin-top: 100px; 
+    text-align: center;
+    
+}
+.reklamatext{
+     color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 48px;
+     text-align: center;
+}
+
+/*footer*/
+
+footer{
+    margin-top:100px;
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+footer .footer_logo{
+    float: left;
+}
+
+footer .rights p{
+    float: left;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    margin: 5px 0 0 40px; 
+}
+
+footer .rights p a{
+    color: #777;
+    font-family: "raleway-semibold";
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;

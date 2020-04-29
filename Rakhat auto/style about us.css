@@ -1,0 +1,133 @@
+body{
+     background: #181818;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icon{
+    width: 100px
+}
+
+/*    header    */
+header{
+    width: 100%;
+    height: 125px;
+}
+
+
+header nav{
+    float: right;
+    margin-top: 57px;
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;  
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+
+header.dark nav ul li a{  
+    color: #818181;
+    font-family: 'Comfortaa', cursive;
+}
+
+header.dark nav ul li a:hover{
+    color: #818181;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #838181;
+    text-align: left;
+    font-family: 'Comfortaa', cursive;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    font-weight: normal!important;
+}
+
+ul{
+    color: #838181;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+    font-weight: normal!important;
+}
+.title{
+    text-align: center;
+    overflow: hidden;
+}
+.title h4{
+    color: #616161;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.gala{
+     width: 820px;
+    margin: 0 auto;
+}
+footer{
+    margin-top:200px;
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+footer .footer_logo{
+    float: left;
+}
+
+footer .rights p{
+    float: left;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    margin: 5px 0 0 40px; 
+}
+
+footer .rights p a{
+    color: #777;
+    font-family: "raleway-semibold";
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+
